@@ -14,5 +14,6 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
+    // Storage::disk('google')->put('test.txt', "Hello World!");
     return view('welcome');
 });
